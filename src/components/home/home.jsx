@@ -325,7 +325,7 @@ const user = auth.currentUser;
       <div className="modal-body">
        
         <div className='userImage'>
-          <img src={userProfile} alt="profileImage"/>
+          <img src={userProfile} alt="profileImage" referrerPolicy="no-referrer"/>
 
         </div>
 
